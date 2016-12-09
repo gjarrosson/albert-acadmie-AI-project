@@ -1,22 +1,17 @@
 ---
 title: assertivite
-timestamp: 2016-12-08T16:33:10.583812963+08:00
+timestamp: 2016-12-09T16:51:21.883497145+08:00
 ---
 
-bonjour
-* greeting
 
-< bonjour, humain
-* greeting
+Comment mieux exprimer mes opinions à mes [collègues](personne) ?
+* assertivite/assertivite
 
-Comment répondre aux agressions de mon patron ?
-* assertivite/agressivite
+< Utilisez le registre du sentiment plutôt que de l'opinion. L’expression d’un sentiment est respectueuses face à l’autre.
+* assertivite/assertivite
 
-< Je vous recommande d'appliquer la technique DESC : Décrire les faits, Exprimer ses sentiments, Solutions, Conclusion.
-* assertivite/DESC
+Dois-je toujours dire ce que je pense ?
+* assertivite/assertivite
 
-c'est à dire ?
-* developper
-
-< L’autre se montre comme « plus grand », mais c’est quelqu’un qui se débat au fond de lui-même. Soyez assertif et dites à l'autre ce que vous ressentez et dans quel sens vous souhaitez que la relation change.
-* assertivite/objectifs
+< Ne rien dire est une manifestation de "fuite". Sur le long terme, l’attitude de fuite subie a des conséquences psychologiques (stress) et cause des désordres psycho-somatiques. Exprimez-vous le plus possible.  
+* assertivite/assertivite

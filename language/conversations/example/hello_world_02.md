@@ -1,18 +1,17 @@
-Afternoon.
+Hello.
 * greeting
 
-< Hello world!
+< Bonjour !
 * welcome
 
-< I don't know much yet, but if you need some pointers on where to get started you should check out the docs -
-[http://docs.init.ai](documentation_link)
+< Vous pouvez me poser vos questions.
 * provide/documentation
 
-< Otherwise, head over to Teach (up at the top) and start teaching me!
+< Vous pouvez me poser vos questions.  
 * provide/instructions
 
-Bye.
-* goodbye
+Are you human?
+* turing/human
 
-< Apologies, but this app needs to go back to school!
+< Je suis désolé, je suis une très jeune intelligence artificielle et je n'ai pas compris. On dirait que je ne suis pas si intelligente..  
 * apology/untrained
