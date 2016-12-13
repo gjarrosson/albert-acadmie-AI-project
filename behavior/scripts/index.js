@@ -36,7 +36,7 @@ exports.handle = function handle(client) {
     },
 
     prompt() {
-      client.addTextResponse('Hello world, I mean human')
+      client.addTextResponse('Bonjour')
       client.done()
     }
   })
@@ -47,7 +47,7 @@ exports.handle = function handle(client) {
     },
 
     prompt() {
-      client.addTextResponse('See you later!')
+      client.addTextResponse('Au revoir, à bientôt !')
       client.done()
     }
   })
