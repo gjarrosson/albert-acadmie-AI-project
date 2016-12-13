@@ -1,13 +1,13 @@
 {
   "name": "albert-acadmie-AI-project",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Very first test of an albert académie chat bot",
   "main": "behavior/scripts/index.js",
   "scripts": {
     "start": "initai-dev-server"
   },
-  "author": "<my-name> <<my-email-address>>",
-  "license": "UNLICENSED",
+  "author": "<Gabriel Jarrosson> <<gabriel.jarrosson@gmail.com>>",
+  "license": "Proprietary",
   "dependencies": {
     "initai-dev-server": "^0.4.3",
     "initai-node": "~0.0.6"

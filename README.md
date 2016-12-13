@@ -2,8 +2,8 @@
 
 ## En développement
 
-Ce projet est en cours de développement. 
+Ce projet est en cours de développement.
 
-### Le voir en action
+## Le voir en action
 
-Coming soon...
+Coming soon... Stay tuned & subscribe @ www.albert-academie.com

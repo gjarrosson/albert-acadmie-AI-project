@@ -52,16 +52,29 @@ exports.handle = function handle(client) {
     }
   })
 
+  const handleAgressivite = client.createStep({
+    satisfied() {
+      return false
+    },
+
+    prompt() {
+      client.addResponse('app:response:name:assertivite/assertivite')
+      client.done()
+    }
+  })
+
   client.runFlow({
     classifications: {
       goodbye: 'goodbye',
-      greeting: 'greeting'
+      greeting: 'greeting',
+      agressivite: 'assertivite'
     },
     streams: {
       goodbye: handleGoodbye,
       greeting: handleGreeting,
       main: 'onboarding',
       onboarding: [sayHello],
+       agressivite: handleAgressivite,
       end: [untrained]
     }
   })
