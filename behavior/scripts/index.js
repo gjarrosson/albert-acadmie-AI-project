@@ -63,9 +63,9 @@ exports.handle = function handle(client) {
     }
   })
 
-  const handleAgressivite = client.createStep({
+  const handleAssertivite = client.createStep({
     satisfied() {
-  
+      return false
     },
 
     prompt() {
@@ -78,14 +78,14 @@ exports.handle = function handle(client) {
     classifications: {
       goodbye: 'goodbye',
       greeting: 'greeting',
-      agressivite: 'assertivite'
+      assertivite: 'assertivite'
     },
     streams: {
       goodbye: handleGoodbye,
       greeting: handleGreeting,
     main: 'onboarding',
       onboarding: [sayHello],
-       agressivite: handleAgressivite,
+       assertivite: handleAssertivite,
       end: [aide]
     }
   })

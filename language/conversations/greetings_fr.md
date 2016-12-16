@@ -24,7 +24,7 @@ salut
 comment ça va ?
 * greeting/emphatic
 
-< je vais très bien merci
+< Je vais très bien merci. Comment puis-je vous aider ?
 * greeting
 
 salut
