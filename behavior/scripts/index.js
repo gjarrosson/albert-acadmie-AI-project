@@ -30,6 +30,17 @@ exports.handle = function handle(client) {
     }
   })
 
+  const aide = client.createStep({
+    satisfied() {
+      return false
+    },
+
+    prompt() {
+      client.addResponse('Comment puis-je vous aider ?')
+      client.done()
+    }
+  })
+
   const handleGreeting = client.createStep({
     satisfied() {
       return false
@@ -54,7 +65,7 @@ exports.handle = function handle(client) {
 
   const handleAgressivite = client.createStep({
     satisfied() {
-      return false
+  
     },
 
     prompt() {
@@ -72,10 +83,10 @@ exports.handle = function handle(client) {
     streams: {
       goodbye: handleGoodbye,
       greeting: handleGreeting,
-      main: 'onboarding',
+    main: 'onboarding',
       onboarding: [sayHello],
        agressivite: handleAgressivite,
-      end: [untrained]
+      end: [aide]
     }
   })
 }
